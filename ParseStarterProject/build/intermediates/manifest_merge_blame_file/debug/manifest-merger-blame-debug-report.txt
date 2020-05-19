@@ -60,287 +60,286 @@
 34-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:13:9-40
 35        android:label="@string/app_name"
 35-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:14:9-41
-36        android:testOnly="true"
-37        android:theme="@style/AppTheme" >
-37-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:15:9-40
-38        <activity
-38-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:16:9-17:20
-39            android:name="com.parse.starter.ViewCategories"
-39-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:16:19-49
-40            android:theme="@style/AppTheme.NoActionBar" >
-40-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:16:50-93
-41        </activity>
-42        <activity android:name="com.parse.starter.NewCategory" />
-42-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:18:9-49
-42-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:18:19-46
-43        <activity android:name="com.parse.starter.ViewProfile" />
-43-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:19:9-49
-43-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:19:19-46
-44        <activity android:name="com.parse.starter.DateRangePicker" />
-44-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:20:9-53
-44-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:20:19-50
-45        <activity
-45-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:21:9-23:59
-46            android:name="com.parse.starter.ShowExpenses"
-46-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:22:13-41
-47            android:theme="@style/AppTheme.NoActionBar" />
-47-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:23:13-56
-48        <activity
-48-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:24:9-26:59
-49            android:name="com.parse.starter.UserListActivity"
-49-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:25:13-45
-50            android:theme="@style/AppTheme.NoActionBar" />
-50-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:26:13-56
-51        <activity android:name="com.parse.starter.LoginActivity" />
-51-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:27:9-51
-51-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:27:19-48
-52        <activity
-52-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:28:9-36:20
-53            android:name="com.parse.starter.MainActivity"
-53-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:29:13-41
-54            android:label="@string/app_name" >
-54-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:30:13-45
-55            <intent-filter>
-55-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:31:13-35:29
-56                <action android:name="android.intent.action.MAIN" />
-56-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:32:17-69
-56-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:32:25-66
-57
-58                <category android:name="android.intent.category.LAUNCHER" />
-58-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:34:17-77
-58-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:34:27-74
-59            </intent-filter>
-60        </activity>
-61
-62        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
-62-->[com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\3b554a892941b8ba3a181463d6ff6f5c\play-services-cast-framework-9.4.0\AndroidManifest.xml:6:9-100
-62-->[com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\3b554a892941b8ba3a181463d6ff6f5c\play-services-cast-framework-9.4.0\AndroidManifest.xml:6:19-97
-63
-64        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
-64-->[com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\3b554a892941b8ba3a181463d6ff6f5c\play-services-cast-framework-9.4.0\AndroidManifest.xml:7:9-104
-64-->[com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\3b554a892941b8ba3a181463d6ff6f5c\play-services-cast-framework-9.4.0\AndroidManifest.xml:7:18-101
-65        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
-65-->[com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\3b554a892941b8ba3a181463d6ff6f5c\play-services-cast-framework-9.4.0\AndroidManifest.xml:8:9-92
-65-->[com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\3b554a892941b8ba3a181463d6ff6f5c\play-services-cast-framework-9.4.0\AndroidManifest.xml:8:18-90
-66        <activity
-66-->[com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\209bc9f411b6e759f46bcf1207c30b3a\play-services-ads-lite-9.4.0\AndroidManifest.xml:26:9-29:64
-67            android:name="com.google.android.gms.ads.AdActivity"
-67-->[com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\209bc9f411b6e759f46bcf1207c30b3a\play-services-ads-lite-9.4.0\AndroidManifest.xml:27:13-65
-68            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-68-->[com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\209bc9f411b6e759f46bcf1207c30b3a\play-services-ads-lite-9.4.0\AndroidManifest.xml:28:13-122
-69            android:theme="@android:style/Theme.Translucent" />
-69-->[com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\209bc9f411b6e759f46bcf1207c30b3a\play-services-ads-lite-9.4.0\AndroidManifest.xml:29:13-61
-70        <activity
-70-->[com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\209bc9f411b6e759f46bcf1207c30b3a\play-services-ads-lite-9.4.0\AndroidManifest.xml:30:9-31:52
-71            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
-71-->[com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\209bc9f411b6e759f46bcf1207c30b3a\play-services-ads-lite-9.4.0\AndroidManifest.xml:30:19-91
-72            android:theme="@style/Theme.IAPTheme" />
-72-->[com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\209bc9f411b6e759f46bcf1207c30b3a\play-services-ads-lite-9.4.0\AndroidManifest.xml:31:13-50
-73        <activity
-73-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\755c4f24ff9121f9eeea2710e1337597\play-services-appinvite-9.4.0\AndroidManifest.xml:21:9-29:20
-74            android:name="com.google.android.gms.appinvite.PreviewActivity"
-74-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\755c4f24ff9121f9eeea2710e1337597\play-services-appinvite-9.4.0\AndroidManifest.xml:22:17-48
-75            android:exported="true"
-75-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\755c4f24ff9121f9eeea2710e1337597\play-services-appinvite-9.4.0\AndroidManifest.xml:23:17-40
-76            android:theme="@style/Theme.AppInvite.Preview" >
-76-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\755c4f24ff9121f9eeea2710e1337597\play-services-appinvite-9.4.0\AndroidManifest.xml:24:17-63
-77            <intent-filter>
-77-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\755c4f24ff9121f9eeea2710e1337597\play-services-appinvite-9.4.0\AndroidManifest.xml:25:13-28:29
-78                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
-78-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\755c4f24ff9121f9eeea2710e1337597\play-services-appinvite-9.4.0\AndroidManifest.xml:26:17-89
-78-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\755c4f24ff9121f9eeea2710e1337597\play-services-appinvite-9.4.0\AndroidManifest.xml:26:25-87
-79
-80                <category android:name="android.intent.category.DEFAULT" />
-80-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\755c4f24ff9121f9eeea2710e1337597\play-services-appinvite-9.4.0\AndroidManifest.xml:27:17-75
-80-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\755c4f24ff9121f9eeea2710e1337597\play-services-appinvite-9.4.0\AndroidManifest.xml:27:27-73
-81            </intent-filter>
-82        </activity>
-83        <activity
-83-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6f05b60c3be5b9ca8ecc58b70ca72251\play-services-auth-9.4.0\AndroidManifest.xml:21:9-24:46
-84            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-84-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6f05b60c3be5b9ca8ecc58b70ca72251\play-services-auth-9.4.0\AndroidManifest.xml:21:19-68
-85            android:excludeFromRecents="true"
-85-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6f05b60c3be5b9ca8ecc58b70ca72251\play-services-auth-9.4.0\AndroidManifest.xml:23:19-52
-86            android:exported="false"
-86-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6f05b60c3be5b9ca8ecc58b70ca72251\play-services-auth-9.4.0\AndroidManifest.xml:24:19-43
-87            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-87-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6f05b60c3be5b9ca8ecc58b70ca72251\play-services-auth-9.4.0\AndroidManifest.xml:22:19-78
-88        <!--
-89Service handling Google Sign-In user revocation. For apps that do not integrate with
-90            Google Sign-In, this service will never be started.
-91        -->
-92        <service
-92-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6f05b60c3be5b9ca8ecc58b70ca72251\play-services-auth-9.4.0\AndroidManifest.xml:28:9-31:110
-93            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-93-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6f05b60c3be5b9ca8ecc58b70ca72251\play-services-auth-9.4.0\AndroidManifest.xml:29:13-58
-94            android:exported="true"
-94-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6f05b60c3be5b9ca8ecc58b70ca72251\play-services-auth-9.4.0\AndroidManifest.xml:30:13-36
-95            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
-95-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6f05b60c3be5b9ca8ecc58b70ca72251\play-services-auth-9.4.0\AndroidManifest.xml:31:13-107
-96        <service
-96-->[com.google.firebase:firebase-crash:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\a30a616a76183b07486374f80186c443\firebase-crash-9.4.0\AndroidManifest.xml:26:9-27:50
-97            android:name="com.google.firebase.crash.internal.service.FirebaseCrashReceiverService"
-97-->[com.google.firebase:firebase-crash:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\a30a616a76183b07486374f80186c443\firebase-crash-9.4.0\AndroidManifest.xml:26:18-79
-98            android:process=":background_crash" />
-98-->[com.google.firebase:firebase-crash:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\a30a616a76183b07486374f80186c443\firebase-crash-9.4.0\AndroidManifest.xml:27:13-48
-99        <service
-99-->[com.google.firebase:firebase-crash:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\a30a616a76183b07486374f80186c443\firebase-crash-9.4.0\AndroidManifest.xml:29:9-30:50
-100            android:name="com.google.firebase.crash.internal.service.FirebaseCrashSenderService"
-100-->[com.google.firebase:firebase-crash:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\a30a616a76183b07486374f80186c443\firebase-crash-9.4.0\AndroidManifest.xml:29:18-77
-101            android:process=":background_crash" />
-101-->[com.google.firebase:firebase-crash:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\a30a616a76183b07486374f80186c443\firebase-crash-9.4.0\AndroidManifest.xml:30:13-48
-102
-103        <activity
-103-->[com.google.android.gms:play-services-base:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\1a16594cffa0d2523633cb4c2bdf8fd2\play-services-base-9.4.0\AndroidManifest.xml:20:9-22:45
-104            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-104-->[com.google.android.gms:play-services-base:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\1a16594cffa0d2523633cb4c2bdf8fd2\play-services-base-9.4.0\AndroidManifest.xml:20:19-85
-105            android:exported="false"
-105-->[com.google.android.gms:play-services-base:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\1a16594cffa0d2523633cb4c2bdf8fd2\play-services-base-9.4.0\AndroidManifest.xml:22:19-43
-106            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-106-->[com.google.android.gms:play-services-base:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\1a16594cffa0d2523633cb4c2bdf8fd2\play-services-base-9.4.0\AndroidManifest.xml:21:19-78
-107        <!--
-108 FirebaseMessagingService performs security checks at runtime,
-109             no need for explicit permissions despite exported="true"
-110        -->
-111        <service
-111-->[com.google.firebase:firebase-messaging:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\fa97a34301f0de6f69bf36c84201f340\firebase-messaging-9.4.0\AndroidManifest.xml:24:9-30:19
-112            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-112-->[com.google.firebase:firebase-messaging:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\fa97a34301f0de6f69bf36c84201f340\firebase-messaging-9.4.0\AndroidManifest.xml:25:13-82
-113            android:exported="true" >
-113-->[com.google.firebase:firebase-messaging:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\fa97a34301f0de6f69bf36c84201f340\firebase-messaging-9.4.0\AndroidManifest.xml:26:13-36
-114            <intent-filter android:priority="-500" >
-114-->[com.google.firebase:firebase-messaging:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\fa97a34301f0de6f69bf36c84201f340\firebase-messaging-9.4.0\AndroidManifest.xml:27:13-29:29
-114-->[com.google.firebase:firebase-messaging:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\fa97a34301f0de6f69bf36c84201f340\firebase-messaging-9.4.0\AndroidManifest.xml:27:28-51
-115                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-115-->[com.google.firebase:firebase-messaging:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\fa97a34301f0de6f69bf36c84201f340\firebase-messaging-9.4.0\AndroidManifest.xml:28:17-78
-115-->[com.google.firebase:firebase-messaging:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\fa97a34301f0de6f69bf36c84201f340\firebase-messaging-9.4.0\AndroidManifest.xml:28:25-75
-116            </intent-filter>
-117        </service>
-118        <service
-118-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6feba852384a98f847b38d363786411a\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:25:9-27:42
-119            android:name="com.google.android.gms.tagmanager.TagManagerService"
-119-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6feba852384a98f847b38d363786411a\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:25:18-84
-120            android:enabled="true"
-120-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6feba852384a98f847b38d363786411a\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:27:17-39
-121            android:exported="false" />
-121-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6feba852384a98f847b38d363786411a\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:26:17-41
-122
-123        <activity
-123-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6feba852384a98f847b38d363786411a\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:28:9-37:20
-124            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
-124-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6feba852384a98f847b38d363786411a\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:29:13-87
-125            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
-125-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6feba852384a98f847b38d363786411a\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:30:13-37
-126            <intent-filter>
-126-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6feba852384a98f847b38d363786411a\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:31:13-36:29
-127                <data android:scheme="tagmanager.c.com.parse.starter" />
-127-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6feba852384a98f847b38d363786411a\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:32:17-72
-127-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6feba852384a98f847b38d363786411a\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:32:23-69
-128
-129                <action android:name="android.intent.action.VIEW" />
-129-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6feba852384a98f847b38d363786411a\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:33:17-69
-129-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6feba852384a98f847b38d363786411a\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:33:25-66
-130
-131                <category android:name="android.intent.category.DEFAULT" />
-131-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\755c4f24ff9121f9eeea2710e1337597\play-services-appinvite-9.4.0\AndroidManifest.xml:27:17-75
-131-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\755c4f24ff9121f9eeea2710e1337597\play-services-appinvite-9.4.0\AndroidManifest.xml:27:27-73
-132                <category android:name="android.intent.category.BROWSABLE" />
-132-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6feba852384a98f847b38d363786411a\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:35:17-77
-132-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6feba852384a98f847b38d363786411a\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:35:27-75
-133            </intent-filter>
-134        </activity>
-135
-136        <receiver
-136-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\b49120a28acac7c10b1e0fe7130aeb4e\firebase-analytics-9.4.0\AndroidManifest.xml:28:7-34:18
-137            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-137-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\b49120a28acac7c10b1e0fe7130aeb4e\firebase-analytics-9.4.0\AndroidManifest.xml:29:11-83
-138            android:enabled="true" >
-138-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\b49120a28acac7c10b1e0fe7130aeb4e\firebase-analytics-9.4.0\AndroidManifest.xml:30:11-33
-139            <intent-filter>
-139-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\b49120a28acac7c10b1e0fe7130aeb4e\firebase-analytics-9.4.0\AndroidManifest.xml:31:9-33:25
-140                <action android:name="com.google.android.gms.measurement.UPLOAD" />
-140-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\b49120a28acac7c10b1e0fe7130aeb4e\firebase-analytics-9.4.0\AndroidManifest.xml:32:11-77
-140-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\b49120a28acac7c10b1e0fe7130aeb4e\firebase-analytics-9.4.0\AndroidManifest.xml:32:19-75
-141            </intent-filter>
-142        </receiver>
-143
-144        <service
-144-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\b49120a28acac7c10b1e0fe7130aeb4e\firebase-analytics-9.4.0\AndroidManifest.xml:36:7-39:37
-145            android:name="com.google.android.gms.measurement.AppMeasurementService"
-145-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\b49120a28acac7c10b1e0fe7130aeb4e\firebase-analytics-9.4.0\AndroidManifest.xml:37:11-82
-146            android:enabled="true"
-146-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\b49120a28acac7c10b1e0fe7130aeb4e\firebase-analytics-9.4.0\AndroidManifest.xml:38:11-33
-147            android:exported="false" />
-147-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\b49120a28acac7c10b1e0fe7130aeb4e\firebase-analytics-9.4.0\AndroidManifest.xml:39:11-35
-148
-149        <receiver
-149-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:32:9-41:20
-150            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-150-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:33:13-78
-151            android:exported="true"
-151-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:34:13-36
-152            android:permission="com.google.android.c2dm.permission.SEND" >
-152-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:35:13-73
-153            <intent-filter>
-153-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:36:13-40:29
-154                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-154-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:37:17-81
-154-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:37:25-78
-155                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
-155-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:38:17-86
-155-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:38:25-83
-156
-157                <category android:name="com.parse.starter" />
-157-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:39:17-61
-157-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:39:27-58
-158            </intent-filter>
-159        </receiver>
-160        <!--
-161 Internal (not exported) receiver used by the app to start its own exported services
-162             without risk of being spoofed.
-163        -->
-164        <receiver
-164-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:45:9-47:40
-165            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
-165-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:46:13-86
-166            android:exported="false" />
-166-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:47:13-37
-167        <!--
-168 FirebaseInstanceIdService performs security checks at runtime,
-169             no need for explicit permissions despite exported="true"
-170        -->
-171        <service
-171-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:51:9-57:19
-172            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
-172-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:52:13-77
-173            android:exported="true" >
-173-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:53:13-36
-174            <intent-filter android:priority="-500" >
-174-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:54:13-56:29
-174-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:54:28-51
-175                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-175-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:55:17-80
-175-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:55:25-77
-176            </intent-filter>
-177        </service>
-178
-179        <provider
-179-->[com.google.firebase:firebase-common:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\267a311f76f93ec8f811c11e74187f70\firebase-common-9.4.0\AndroidManifest.xml:7:9-11:39
-180            android:name="com.google.firebase.provider.FirebaseInitProvider"
-180-->[com.google.firebase:firebase-common:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\267a311f76f93ec8f811c11e74187f70\firebase-common-9.4.0\AndroidManifest.xml:9:13-58
-181            android:authorities="com.parse.starter.firebaseinitprovider"
-181-->[com.google.firebase:firebase-common:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\267a311f76f93ec8f811c11e74187f70\firebase-common-9.4.0\AndroidManifest.xml:8:13-72
-182            android:exported="false"
-182-->[com.google.firebase:firebase-common:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\267a311f76f93ec8f811c11e74187f70\firebase-common-9.4.0\AndroidManifest.xml:10:13-37
-183            android:initOrder="100" />
-183-->[com.google.firebase:firebase-common:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\267a311f76f93ec8f811c11e74187f70\firebase-common-9.4.0\AndroidManifest.xml:11:13-36
-184
-185        <meta-data
-185-->[com.google.android.gms:play-services-basement:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\72915f5c506e6abd7e70e4e1a986e64e\play-services-basement-9.4.0\AndroidManifest.xml:21:9-23:69
-186            android:name="com.google.android.gms.version"
-186-->[com.google.android.gms:play-services-basement:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\72915f5c506e6abd7e70e4e1a986e64e\play-services-basement-9.4.0\AndroidManifest.xml:22:13-58
-187            android:value="@integer/google_play_services_version" />
-187-->[com.google.android.gms:play-services-basement:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\72915f5c506e6abd7e70e4e1a986e64e\play-services-basement-9.4.0\AndroidManifest.xml:23:13-66
-188    </application>
-189
-190</manifest>
+36        android:theme="@style/AppTheme" >
+36-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:15:9-40
+37        <activity
+37-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:16:9-17:20
+38            android:name="com.parse.starter.ViewCategories"
+38-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:16:19-49
+39            android:theme="@style/AppTheme.NoActionBar" >
+39-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:16:50-93
+40        </activity>
+41        <activity android:name="com.parse.starter.NewCategory" />
+41-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:18:9-49
+41-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:18:19-46
+42        <activity android:name="com.parse.starter.ViewProfile" />
+42-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:19:9-49
+42-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:19:19-46
+43        <activity android:name="com.parse.starter.DateRangePicker" />
+43-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:20:9-53
+43-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:20:19-50
+44        <activity
+44-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:21:9-23:59
+45            android:name="com.parse.starter.ShowExpenses"
+45-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:22:13-41
+46            android:theme="@style/AppTheme.NoActionBar" />
+46-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:23:13-56
+47        <activity
+47-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:24:9-26:59
+48            android:name="com.parse.starter.UserListActivity"
+48-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:25:13-45
+49            android:theme="@style/AppTheme.NoActionBar" />
+49-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:26:13-56
+50        <activity android:name="com.parse.starter.LoginActivity" />
+50-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:27:9-51
+50-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:27:19-48
+51        <activity
+51-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:28:9-36:20
+52            android:name="com.parse.starter.MainActivity"
+52-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:29:13-41
+53            android:label="@string/app_name" >
+53-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:30:13-45
+54            <intent-filter>
+54-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:31:13-35:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:32:17-69
+55-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:32:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:34:17-77
+57-->E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:34:27-74
+58            </intent-filter>
+59        </activity>
+60
+61        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
+61-->[com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\3b554a892941b8ba3a181463d6ff6f5c\play-services-cast-framework-9.4.0\AndroidManifest.xml:6:9-100
+61-->[com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\3b554a892941b8ba3a181463d6ff6f5c\play-services-cast-framework-9.4.0\AndroidManifest.xml:6:19-97
+62
+63        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
+63-->[com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\3b554a892941b8ba3a181463d6ff6f5c\play-services-cast-framework-9.4.0\AndroidManifest.xml:7:9-104
+63-->[com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\3b554a892941b8ba3a181463d6ff6f5c\play-services-cast-framework-9.4.0\AndroidManifest.xml:7:18-101
+64        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+64-->[com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\3b554a892941b8ba3a181463d6ff6f5c\play-services-cast-framework-9.4.0\AndroidManifest.xml:8:9-92
+64-->[com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\3b554a892941b8ba3a181463d6ff6f5c\play-services-cast-framework-9.4.0\AndroidManifest.xml:8:18-90
+65        <activity
+65-->[com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\209bc9f411b6e759f46bcf1207c30b3a\play-services-ads-lite-9.4.0\AndroidManifest.xml:26:9-29:64
+66            android:name="com.google.android.gms.ads.AdActivity"
+66-->[com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\209bc9f411b6e759f46bcf1207c30b3a\play-services-ads-lite-9.4.0\AndroidManifest.xml:27:13-65
+67            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+67-->[com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\209bc9f411b6e759f46bcf1207c30b3a\play-services-ads-lite-9.4.0\AndroidManifest.xml:28:13-122
+68            android:theme="@android:style/Theme.Translucent" />
+68-->[com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\209bc9f411b6e759f46bcf1207c30b3a\play-services-ads-lite-9.4.0\AndroidManifest.xml:29:13-61
+69        <activity
+69-->[com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\209bc9f411b6e759f46bcf1207c30b3a\play-services-ads-lite-9.4.0\AndroidManifest.xml:30:9-31:52
+70            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+70-->[com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\209bc9f411b6e759f46bcf1207c30b3a\play-services-ads-lite-9.4.0\AndroidManifest.xml:30:19-91
+71            android:theme="@style/Theme.IAPTheme" />
+71-->[com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\209bc9f411b6e759f46bcf1207c30b3a\play-services-ads-lite-9.4.0\AndroidManifest.xml:31:13-50
+72        <activity
+72-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\755c4f24ff9121f9eeea2710e1337597\play-services-appinvite-9.4.0\AndroidManifest.xml:21:9-29:20
+73            android:name="com.google.android.gms.appinvite.PreviewActivity"
+73-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\755c4f24ff9121f9eeea2710e1337597\play-services-appinvite-9.4.0\AndroidManifest.xml:22:17-48
+74            android:exported="true"
+74-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\755c4f24ff9121f9eeea2710e1337597\play-services-appinvite-9.4.0\AndroidManifest.xml:23:17-40
+75            android:theme="@style/Theme.AppInvite.Preview" >
+75-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\755c4f24ff9121f9eeea2710e1337597\play-services-appinvite-9.4.0\AndroidManifest.xml:24:17-63
+76            <intent-filter>
+76-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\755c4f24ff9121f9eeea2710e1337597\play-services-appinvite-9.4.0\AndroidManifest.xml:25:13-28:29
+77                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+77-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\755c4f24ff9121f9eeea2710e1337597\play-services-appinvite-9.4.0\AndroidManifest.xml:26:17-89
+77-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\755c4f24ff9121f9eeea2710e1337597\play-services-appinvite-9.4.0\AndroidManifest.xml:26:25-87
+78
+79                <category android:name="android.intent.category.DEFAULT" />
+79-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\755c4f24ff9121f9eeea2710e1337597\play-services-appinvite-9.4.0\AndroidManifest.xml:27:17-75
+79-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\755c4f24ff9121f9eeea2710e1337597\play-services-appinvite-9.4.0\AndroidManifest.xml:27:27-73
+80            </intent-filter>
+81        </activity>
+82        <activity
+82-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6f05b60c3be5b9ca8ecc58b70ca72251\play-services-auth-9.4.0\AndroidManifest.xml:21:9-24:46
+83            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+83-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6f05b60c3be5b9ca8ecc58b70ca72251\play-services-auth-9.4.0\AndroidManifest.xml:21:19-68
+84            android:excludeFromRecents="true"
+84-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6f05b60c3be5b9ca8ecc58b70ca72251\play-services-auth-9.4.0\AndroidManifest.xml:23:19-52
+85            android:exported="false"
+85-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6f05b60c3be5b9ca8ecc58b70ca72251\play-services-auth-9.4.0\AndroidManifest.xml:24:19-43
+86            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+86-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6f05b60c3be5b9ca8ecc58b70ca72251\play-services-auth-9.4.0\AndroidManifest.xml:22:19-78
+87        <!--
+88Service handling Google Sign-In user revocation. For apps that do not integrate with
+89            Google Sign-In, this service will never be started.
+90        -->
+91        <service
+91-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6f05b60c3be5b9ca8ecc58b70ca72251\play-services-auth-9.4.0\AndroidManifest.xml:28:9-31:110
+92            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+92-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6f05b60c3be5b9ca8ecc58b70ca72251\play-services-auth-9.4.0\AndroidManifest.xml:29:13-58
+93            android:exported="true"
+93-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6f05b60c3be5b9ca8ecc58b70ca72251\play-services-auth-9.4.0\AndroidManifest.xml:30:13-36
+94            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+94-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6f05b60c3be5b9ca8ecc58b70ca72251\play-services-auth-9.4.0\AndroidManifest.xml:31:13-107
+95        <service
+95-->[com.google.firebase:firebase-crash:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\a30a616a76183b07486374f80186c443\firebase-crash-9.4.0\AndroidManifest.xml:26:9-27:50
+96            android:name="com.google.firebase.crash.internal.service.FirebaseCrashReceiverService"
+96-->[com.google.firebase:firebase-crash:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\a30a616a76183b07486374f80186c443\firebase-crash-9.4.0\AndroidManifest.xml:26:18-79
+97            android:process=":background_crash" />
+97-->[com.google.firebase:firebase-crash:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\a30a616a76183b07486374f80186c443\firebase-crash-9.4.0\AndroidManifest.xml:27:13-48
+98        <service
+98-->[com.google.firebase:firebase-crash:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\a30a616a76183b07486374f80186c443\firebase-crash-9.4.0\AndroidManifest.xml:29:9-30:50
+99            android:name="com.google.firebase.crash.internal.service.FirebaseCrashSenderService"
+99-->[com.google.firebase:firebase-crash:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\a30a616a76183b07486374f80186c443\firebase-crash-9.4.0\AndroidManifest.xml:29:18-77
+100            android:process=":background_crash" />
+100-->[com.google.firebase:firebase-crash:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\a30a616a76183b07486374f80186c443\firebase-crash-9.4.0\AndroidManifest.xml:30:13-48
+101
+102        <activity
+102-->[com.google.android.gms:play-services-base:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\1a16594cffa0d2523633cb4c2bdf8fd2\play-services-base-9.4.0\AndroidManifest.xml:20:9-22:45
+103            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+103-->[com.google.android.gms:play-services-base:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\1a16594cffa0d2523633cb4c2bdf8fd2\play-services-base-9.4.0\AndroidManifest.xml:20:19-85
+104            android:exported="false"
+104-->[com.google.android.gms:play-services-base:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\1a16594cffa0d2523633cb4c2bdf8fd2\play-services-base-9.4.0\AndroidManifest.xml:22:19-43
+105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+105-->[com.google.android.gms:play-services-base:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\1a16594cffa0d2523633cb4c2bdf8fd2\play-services-base-9.4.0\AndroidManifest.xml:21:19-78
+106        <!--
+107 FirebaseMessagingService performs security checks at runtime,
+108             no need for explicit permissions despite exported="true"
+109        -->
+110        <service
+110-->[com.google.firebase:firebase-messaging:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\fa97a34301f0de6f69bf36c84201f340\firebase-messaging-9.4.0\AndroidManifest.xml:24:9-30:19
+111            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+111-->[com.google.firebase:firebase-messaging:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\fa97a34301f0de6f69bf36c84201f340\firebase-messaging-9.4.0\AndroidManifest.xml:25:13-82
+112            android:exported="true" >
+112-->[com.google.firebase:firebase-messaging:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\fa97a34301f0de6f69bf36c84201f340\firebase-messaging-9.4.0\AndroidManifest.xml:26:13-36
+113            <intent-filter android:priority="-500" >
+113-->[com.google.firebase:firebase-messaging:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\fa97a34301f0de6f69bf36c84201f340\firebase-messaging-9.4.0\AndroidManifest.xml:27:13-29:29
+113-->[com.google.firebase:firebase-messaging:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\fa97a34301f0de6f69bf36c84201f340\firebase-messaging-9.4.0\AndroidManifest.xml:27:28-51
+114                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+114-->[com.google.firebase:firebase-messaging:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\fa97a34301f0de6f69bf36c84201f340\firebase-messaging-9.4.0\AndroidManifest.xml:28:17-78
+114-->[com.google.firebase:firebase-messaging:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\fa97a34301f0de6f69bf36c84201f340\firebase-messaging-9.4.0\AndroidManifest.xml:28:25-75
+115            </intent-filter>
+116        </service>
+117        <service
+117-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6feba852384a98f847b38d363786411a\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:25:9-27:42
+118            android:name="com.google.android.gms.tagmanager.TagManagerService"
+118-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6feba852384a98f847b38d363786411a\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:25:18-84
+119            android:enabled="true"
+119-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6feba852384a98f847b38d363786411a\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:27:17-39
+120            android:exported="false" />
+120-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6feba852384a98f847b38d363786411a\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:26:17-41
+121
+122        <activity
+122-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6feba852384a98f847b38d363786411a\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:28:9-37:20
+123            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
+123-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6feba852384a98f847b38d363786411a\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:29:13-87
+124            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
+124-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6feba852384a98f847b38d363786411a\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:30:13-37
+125            <intent-filter>
+125-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6feba852384a98f847b38d363786411a\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:31:13-36:29
+126                <data android:scheme="tagmanager.c.com.parse.starter" />
+126-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6feba852384a98f847b38d363786411a\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:32:17-72
+126-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6feba852384a98f847b38d363786411a\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:32:23-69
+127
+128                <action android:name="android.intent.action.VIEW" />
+128-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6feba852384a98f847b38d363786411a\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:33:17-69
+128-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6feba852384a98f847b38d363786411a\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:33:25-66
+129
+130                <category android:name="android.intent.category.DEFAULT" />
+130-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\755c4f24ff9121f9eeea2710e1337597\play-services-appinvite-9.4.0\AndroidManifest.xml:27:17-75
+130-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\755c4f24ff9121f9eeea2710e1337597\play-services-appinvite-9.4.0\AndroidManifest.xml:27:27-73
+131                <category android:name="android.intent.category.BROWSABLE" />
+131-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6feba852384a98f847b38d363786411a\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:35:17-77
+131-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\6feba852384a98f847b38d363786411a\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:35:27-75
+132            </intent-filter>
+133        </activity>
+134
+135        <receiver
+135-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\b49120a28acac7c10b1e0fe7130aeb4e\firebase-analytics-9.4.0\AndroidManifest.xml:28:7-34:18
+136            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+136-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\b49120a28acac7c10b1e0fe7130aeb4e\firebase-analytics-9.4.0\AndroidManifest.xml:29:11-83
+137            android:enabled="true" >
+137-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\b49120a28acac7c10b1e0fe7130aeb4e\firebase-analytics-9.4.0\AndroidManifest.xml:30:11-33
+138            <intent-filter>
+138-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\b49120a28acac7c10b1e0fe7130aeb4e\firebase-analytics-9.4.0\AndroidManifest.xml:31:9-33:25
+139                <action android:name="com.google.android.gms.measurement.UPLOAD" />
+139-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\b49120a28acac7c10b1e0fe7130aeb4e\firebase-analytics-9.4.0\AndroidManifest.xml:32:11-77
+139-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\b49120a28acac7c10b1e0fe7130aeb4e\firebase-analytics-9.4.0\AndroidManifest.xml:32:19-75
+140            </intent-filter>
+141        </receiver>
+142
+143        <service
+143-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\b49120a28acac7c10b1e0fe7130aeb4e\firebase-analytics-9.4.0\AndroidManifest.xml:36:7-39:37
+144            android:name="com.google.android.gms.measurement.AppMeasurementService"
+144-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\b49120a28acac7c10b1e0fe7130aeb4e\firebase-analytics-9.4.0\AndroidManifest.xml:37:11-82
+145            android:enabled="true"
+145-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\b49120a28acac7c10b1e0fe7130aeb4e\firebase-analytics-9.4.0\AndroidManifest.xml:38:11-33
+146            android:exported="false" />
+146-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\b49120a28acac7c10b1e0fe7130aeb4e\firebase-analytics-9.4.0\AndroidManifest.xml:39:11-35
+147
+148        <receiver
+148-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:32:9-41:20
+149            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+149-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:33:13-78
+150            android:exported="true"
+150-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:34:13-36
+151            android:permission="com.google.android.c2dm.permission.SEND" >
+151-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:35:13-73
+152            <intent-filter>
+152-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:36:13-40:29
+153                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+153-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:37:17-81
+153-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:37:25-78
+154                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+154-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:38:17-86
+154-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:38:25-83
+155
+156                <category android:name="com.parse.starter" />
+156-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:39:17-61
+156-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:39:27-58
+157            </intent-filter>
+158        </receiver>
+159        <!--
+160 Internal (not exported) receiver used by the app to start its own exported services
+161             without risk of being spoofed.
+162        -->
+163        <receiver
+163-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:45:9-47:40
+164            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+164-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:46:13-86
+165            android:exported="false" />
+165-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:47:13-37
+166        <!--
+167 FirebaseInstanceIdService performs security checks at runtime,
+168             no need for explicit permissions despite exported="true"
+169        -->
+170        <service
+170-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:51:9-57:19
+171            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+171-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:52:13-77
+172            android:exported="true" >
+172-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:53:13-36
+173            <intent-filter android:priority="-500" >
+173-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:54:13-56:29
+173-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:54:28-51
+174                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+174-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:55:17-80
+174-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\d37400dcc76f71b3c2e75861066c259a\firebase-iid-9.4.0\AndroidManifest.xml:55:25-77
+175            </intent-filter>
+176        </service>
+177
+178        <provider
+178-->[com.google.firebase:firebase-common:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\267a311f76f93ec8f811c11e74187f70\firebase-common-9.4.0\AndroidManifest.xml:7:9-11:39
+179            android:name="com.google.firebase.provider.FirebaseInitProvider"
+179-->[com.google.firebase:firebase-common:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\267a311f76f93ec8f811c11e74187f70\firebase-common-9.4.0\AndroidManifest.xml:9:13-58
+180            android:authorities="com.parse.starter.firebaseinitprovider"
+180-->[com.google.firebase:firebase-common:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\267a311f76f93ec8f811c11e74187f70\firebase-common-9.4.0\AndroidManifest.xml:8:13-72
+181            android:exported="false"
+181-->[com.google.firebase:firebase-common:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\267a311f76f93ec8f811c11e74187f70\firebase-common-9.4.0\AndroidManifest.xml:10:13-37
+182            android:initOrder="100" />
+182-->[com.google.firebase:firebase-common:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\267a311f76f93ec8f811c11e74187f70\firebase-common-9.4.0\AndroidManifest.xml:11:13-36
+183
+184        <meta-data
+184-->[com.google.android.gms:play-services-basement:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\72915f5c506e6abd7e70e4e1a986e64e\play-services-basement-9.4.0\AndroidManifest.xml:21:9-23:69
+185            android:name="com.google.android.gms.version"
+185-->[com.google.android.gms:play-services-basement:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\72915f5c506e6abd7e70e4e1a986e64e\play-services-basement-9.4.0\AndroidManifest.xml:22:13-58
+186            android:value="@integer/google_play_services_version" />
+186-->[com.google.android.gms:play-services-basement:9.4.0] C:\Users\prema sai\.gradle\caches\transforms-2\files-2.1\72915f5c506e6abd7e70e4e1a986e64e\play-services-basement-9.4.0\AndroidManifest.xml:23:13-66
+187    </application>
+188
+189</manifest>
