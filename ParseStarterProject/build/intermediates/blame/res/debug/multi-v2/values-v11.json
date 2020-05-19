@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Android_apps\\ExpenseTracker\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\prema sai\\.gradle\\caches\\transforms-2\\files-2.1\\755c4f24ff9121f9eeea2710e1337597\\play-services-appinvite-9.4.0\\res\\values-v11\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "219",
+                        "endColumns": "117",
+                        "endOffsets": "332"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "117",
+                        "endOffsets": "168"
+                    }
+                }
+            ]
+        }
+    ]
+}

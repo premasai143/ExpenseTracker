@@ -1,0 +1,2 @@
+# Referenced at E:\Android_apps\ExpenseTracker\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\debug\AndroidManifest.xml:30
+-keep class com.parse.starter.StarterApplication { <init>(); }

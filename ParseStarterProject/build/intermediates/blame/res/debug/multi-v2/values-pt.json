@@ -1,0 +1,77 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Android_apps\\ExpenseTracker\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt\\values-pt.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\prema sai\\.gradle\\caches\\transforms-2\\files-2.1\\e7b7e31393e5f414ca31dd76d9a8fa1f\\android-times-square-1.6.5\\res\\values-pt\\values-pt.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "189",
+                        "endColumns": "73",
+                        "endOffsets": "258"
+                    },
+                    "to": {
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "1904",
+                        "endColumns": "73",
+                        "endOffsets": "1973"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\prema sai\\.gradle\\caches\\transforms-2\\files-2.1\\d694d7513e1ca99c176cc55df91d4662\\support-compat-27.1.1\\res\\values-pt\\values-pt.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "32",
+                        "startColumns": "4",
+                        "startOffsets": "3261",
+                        "endColumns": "100",
+                        "endOffsets": "3357"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\prema sai\\.gradle\\caches\\transforms-2\\files-2.1\\b94212bf736ef5473d06d63cf9d7e4e2\\mediarouter-v7-23.0.0\\res\\values-pt\\values-pt.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "278,389,505,616,722,854,951,1051,1177,1290,1377",
+                        "endColumns": "110,115,110,105,131,96,99,125,112,86,98",
+                        "endOffsets": "384,500,611,717,849,946,1046,1172,1285,1372,1471"
+                    },
+                    "to": {
+                        "startLines": "20,21,22,23,24,25,26,27,28,29,30",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1978,2089,2205,2316,2422,2554,2651,2751,2877,2990,3077",
+                        "endColumns": "110,115,110,105,131,96,99,125,112,86,98",
+                        "endOffsets": "2084,2200,2311,2417,2549,2646,2746,2872,2985,3072,3171"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\prema sai\\.gradle\\caches\\transforms-2\\files-2.1\\34555d386a7eb9ea3045ff1382069509\\appcompat-v7-27.1.1\\res\\values-pt\\values-pt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,225,331,438,527,628,746,829,909,996,1103,1215,1317,1425,1532,1642,1804,1904",
+                        "endColumns": "119,105,106,88,100,117,82,79,86,106,111,101,107,106,109,161,99,84",
+                        "endOffsets": "220,326,433,522,623,741,824,904,991,1098,1210,1312,1420,1527,1637,1799,1899,1984"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,31",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,225,331,438,527,628,746,829,909,996,1103,1215,1317,1425,1532,1642,1804,3176",
+                        "endColumns": "119,105,106,88,100,117,82,79,86,106,111,101,107,106,109,161,99,84",
+                        "endOffsets": "220,326,433,522,623,741,824,904,991,1098,1210,1312,1420,1527,1637,1799,1899,3256"
+                    }
+                }
+            ]
+        }
+    ]
+}

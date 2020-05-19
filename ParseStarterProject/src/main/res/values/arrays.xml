@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="categories">
+        <item>Select Category</item>
+        <item>Bills</item>
+        <item>Car</item>
+        <item>Clothes</item>
+        <item>Communications</item>
+        <item>Eating out</item>
+        <item>Entertainment</item>
+        <item>Health</item>
+        <item>House</item>
+        <item>Toiletry</item>
+        <item>Transport</item>
+    </array>
+
+</resources>

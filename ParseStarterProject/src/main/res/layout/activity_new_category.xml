@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewCategory"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/titleName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="New Category"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:background="@android:color/background_light"
+        android:padding="30dp">
+
+        <EditText
+            android:id="@+id/newName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:hint="Add a name to category"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/saveCategory"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/holo_orange_dark"
+            android:text="Add Category" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,162 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Android_apps\\ExpenseTracker\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rTW\\values-zh-rTW.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\prema sai\\.gradle\\caches\\transforms-2\\files-2.1\\c09b968d925b55dc67c38c937c158cfe\\play-services-wallet-9.4.0\\res\\values-zh-rTW\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "292",
+                        "endColumns": "100",
+                        "endOffsets": "388"
+                    },
+                    "to": {
+                        "startLines": "88",
+                        "startColumns": "4",
+                        "startOffsets": "8953",
+                        "endColumns": "100",
+                        "endOffsets": "9049"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\prema sai\\.gradle\\caches\\transforms-2\\files-2.1\\34555d386a7eb9ea3045ff1382069509\\appcompat-v7-27.1.1\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,200,293,393,475,572,680,756,832,910,1006,1102,1197,1294,1389,1489,1639,1733",
+                        "endColumns": "94,92,99,81,96,107,75,75,77,95,95,94,96,94,99,149,93,77",
+                        "endOffsets": "195,288,388,470,567,675,751,827,905,1001,1097,1192,1289,1384,1484,1634,1728,1806"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,86",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,200,293,393,475,572,680,756,832,910,1006,1102,1197,1294,1389,1489,1639,8774",
+                        "endColumns": "94,92,99,81,96,107,75,75,77,95,95,94,96,94,99,149,93,77",
+                        "endOffsets": "195,288,388,470,567,675,751,827,905,1001,1097,1192,1289,1384,1484,1634,1728,8847"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\prema sai\\.gradle\\caches\\transforms-2\\files-2.1\\3b554a892941b8ba3a181463d6ff6f5c\\play-services-cast-framework-9.4.0\\res\\values-zh-rTW\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "348,437,524,627,706,811,907,981,1063,1145,1253,1324,1396,1467,1540,1621,1702,1783,1864,1945,2016,2103,2197,2292,2434,2545,2656,2771,2863,2954,3052",
+                        "endColumns": "88,86,102,78,104,95,73,81,81,107,70,71,70,72,80,80,80,80,80,70,86,93,94,141,110,110,114,91,90,97,74",
+                        "endOffsets": "432,519,622,701,806,902,976,1058,1140,1248,1319,1391,1462,1535,1616,1697,1778,1859,1940,2011,2098,2192,2287,2429,2540,2651,2766,2858,2949,3047,3122"
+                    },
+                    "to": {
+                        "startLines": "19,20,21,22,23,24,25,26,27,28,29,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1733,1822,1909,2012,2091,2196,2292,2366,2448,2530,2638,3063,3135,3206,3279,3360,3441,3522,3603,3684,3755,3842,3936,4031,4173,4284,4395,4510,4602,4693,4791",
+                        "endColumns": "88,86,102,78,104,95,73,81,81,107,70,71,70,72,80,80,80,80,80,70,86,93,94,141,110,110,114,91,90,97,74",
+                        "endOffsets": "1817,1904,2007,2086,2191,2287,2361,2443,2525,2633,2704,3130,3201,3274,3355,3436,3517,3598,3679,3750,3837,3931,4026,4168,4279,4390,4505,4597,4688,4786,4861"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\prema sai\\.gradle\\caches\\transforms-2\\files-2.1\\d694d7513e1ca99c176cc55df91d4662\\support-compat-27.1.1\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "87",
+                        "startColumns": "4",
+                        "startOffsets": "8852",
+                        "endColumns": "100",
+                        "endOffsets": "8948"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\prema sai\\.gradle\\caches\\transforms-2\\files-2.1\\e5ca297955c7f7825cbd503021abe5e6\\play-services-cast-9.4.0\\res\\values-zh-rTW\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "337,467,599",
+                        "endColumns": "129,131,91",
+                        "endOffsets": "462,594,686"
+                    },
+                    "to": {
+                        "startLines": "30,31,32",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "2709,2839,2971",
+                        "endColumns": "129,131,91",
+                        "endOffsets": "2834,2966,3058"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\prema sai\\.gradle\\caches\\transforms-2\\files-2.1\\72915f5c506e6abd7e70e4e1a986e64e\\play-services-basement-9.4.0\\res\\values-zh-rTW\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "335",
+                        "endColumns": "181",
+                        "endOffsets": "512"
+                    },
+                    "to": {
+                        "startLines": "61",
+                        "startColumns": "4",
+                        "startOffsets": "5954",
+                        "endColumns": "181",
+                        "endOffsets": "6131"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\prema sai\\.gradle\\caches\\transforms-2\\files-2.1\\b94212bf736ef5473d06d63cf9d7e4e2\\mediarouter-v7-23.0.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "282,385,486,579,678,788,881,973,1082,1176,1258",
+                        "endColumns": "102,100,92,98,109,92,91,108,93,81,88",
+                        "endOffsets": "380,481,574,673,783,876,968,1077,1171,1253,1342"
+                    },
+                    "to": {
+                        "startLines": "73,74,75,76,77,78,79,80,81,82,83",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "7522,7625,7726,7819,7918,8028,8121,8213,8322,8416,8498",
+                        "endColumns": "102,100,92,98,109,92,91,108,93,81,88",
+                        "endOffsets": "7620,7721,7814,7913,8023,8116,8208,8317,8411,8493,8582"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\prema sai\\.gradle\\caches\\transforms-2\\files-2.1\\1a16594cffa0d2523633cb4c2bdf8fd2\\play-services-base-9.4.0\\res\\values-zh-rTW\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "333,436,596,713,832,1004,1179,1297,1421,1615,1733,1836,1996,2113,2274,2393,2531,2617,2704",
+                        "endColumns": "102,159,116,118,171,174,117,123,193,117,102,159,116,160,118,137,85,86,102",
+                        "endOffsets": "431,591,708,827,999,1174,1292,1416,1610,1728,1831,1991,2108,2269,2388,2526,2612,2699,2802"
+                    },
+                    "to": {
+                        "startLines": "53,54,55,56,57,58,59,60,62,63,64,65,66,67,68,69,70,71,72",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4866,4969,5129,5246,5365,5537,5712,5830,6136,6330,6448,6551,6711,6828,6989,7108,7246,7332,7419",
+                        "endColumns": "102,159,116,118,171,174,117,123,193,117,102,159,116,160,118,137,85,86,102",
+                        "endOffsets": "4964,5124,5241,5360,5532,5707,5825,5949,6325,6443,6546,6706,6823,6984,7103,7241,7327,7414,7517"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\prema sai\\.gradle\\caches\\transforms-2\\files-2.1\\12ac142169c904c8eb2765b2d7883f81\\play-services-places-9.4.0\\res\\values-zh-rTW\\values.xml",
+                    "from": {
+                        "startLines": "4,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "285,380",
+                        "endColumns": "94,91",
+                        "endOffsets": "375,467"
+                    },
+                    "to": {
+                        "startLines": "84,85",
+                        "startColumns": "4,4",
+                        "startOffsets": "8587,8682",
+                        "endColumns": "94,91",
+                        "endOffsets": "8677,8769"
+                    }
+                }
+            ]
+        }
+    ]
+}

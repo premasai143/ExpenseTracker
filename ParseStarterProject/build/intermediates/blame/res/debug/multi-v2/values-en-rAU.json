@@ -1,0 +1,77 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Android_apps\\ExpenseTracker\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\prema sai\\.gradle\\caches\\transforms-2\\files-2.1\\34555d386a7eb9ea3045ff1382069509\\appcompat-v7-27.1.1\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,209,309,417,501,601,716,793,869,951,1054,1158,1257,1362,1465,1569,1725,1825",
+                        "endColumns": "103,99,107,83,99,114,76,75,81,102,103,98,104,102,103,155,99,81",
+                        "endOffsets": "204,304,412,496,596,711,788,864,946,1049,1153,1252,1357,1460,1564,1720,1820,1902"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,30",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,209,309,417,501,601,716,793,869,951,1054,1158,1257,1362,1465,1569,1725,2965",
+                        "endColumns": "103,99,107,83,99,114,76,75,81,102,103,98,104,102,103,155,99,81",
+                        "endOffsets": "204,304,412,496,596,711,788,864,946,1049,1153,1252,1357,1460,1564,1720,1820,3042"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\prema sai\\.gradle\\caches\\transforms-2\\files-2.1\\c09b968d925b55dc67c38c937c158cfe\\play-services-wallet-9.4.0\\res\\values-en-rAU\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "292",
+                        "endColumns": "103",
+                        "endOffsets": "391"
+                    },
+                    "to": {
+                        "startLines": "32",
+                        "startColumns": "4",
+                        "startOffsets": "3148",
+                        "endColumns": "103",
+                        "endOffsets": "3247"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\prema sai\\.gradle\\caches\\transforms-2\\files-2.1\\b94212bf736ef5473d06d63cf9d7e4e2\\mediarouter-v7-23.0.0\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "282,387,501,606,711,831,927,1021,1140,1242,1328",
+                        "endColumns": "104,113,104,104,119,95,93,118,101,85,93",
+                        "endOffsets": "382,496,601,706,826,922,1016,1135,1237,1323,1417"
+                    },
+                    "to": {
+                        "startLines": "19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1825,1930,2044,2149,2254,2374,2470,2564,2683,2785,2871",
+                        "endColumns": "104,113,104,104,119,95,93,118,101,85,93",
+                        "endOffsets": "1925,2039,2144,2249,2369,2465,2559,2678,2780,2866,2960"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\prema sai\\.gradle\\caches\\transforms-2\\files-2.1\\d694d7513e1ca99c176cc55df91d4662\\support-compat-27.1.1\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "31",
+                        "startColumns": "4",
+                        "startOffsets": "3047",
+                        "endColumns": "100",
+                        "endOffsets": "3143"
+                    }
+                }
+            ]
+        }
+    ]
+}
