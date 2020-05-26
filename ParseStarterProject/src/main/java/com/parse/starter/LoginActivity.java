@@ -61,9 +61,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
         passwordEditText.setOnKeyListener(this);
 
-        if (ParseUser.getCurrentUser()!=null){
-            showUSerList();
-        }
+//        if (ParseUser.getCurrentUser()!=null){
+//            showUSerList();
+//        }
 
     }
 
@@ -129,39 +129,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                             categories.put("category","Default");
                             categories.saveInBackground();
 
-//                            Bitmap bitmap= BitmapFactory.decodeResource(getResources(), R.drawable.profile);
-//                            ByteArrayOutputStream stream = new ByteArrayOutputStream();
-//                            bitmap.compress(Bitmap.CompressFormat.JPEG,40,stream);
-//                            final byte[] byteArray = stream.toByteArray();
-//
-//                            final ParseFile parseFile = new ParseFile("image.png",byteArray);
-//                            ParseQuery<ParseUser> query = ParseUser.getQuery();
-//                            query.whereEqualTo("username",usernameEditText.getText().toString());
-//                            query.getFirstInBackground(new GetCallback<ParseUser>() {
-//                                @Override
-//                                public void done(ParseUser object, ParseException e) {
-//                                    if(object!=null){
-//                                        object.put("ProfilePic",parseFile);
-//                                        object.saveInBackground();
-//                                    }
-//                                }
-//                            });
-
-                        } else {
-                            Toast.makeText(LoginActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
-                        }
-                    }
-                });
-                finish();
-                startActivity(getIntent());
-
-            } else {
-                //Login
-                ParseUser.logInInBackground(usernameEditText.getText().toString(), passwordEditText.getText().toString(), new LogInCallback() {
-                    @Override
-                    public void done(ParseUser user, ParseException e) {
-                        if (user != null){
-                            Toast.makeText(LoginActivity.this,ParseUser.getCurrentUser().getUsername()+" Log in Successful!", Toast.LENGTH_SHORT).show();
                             Bitmap bitmap= BitmapFactory.decodeResource(getResources(), R.drawable.profile);
                             ByteArrayOutputStream stream = new ByteArrayOutputStream();
                             bitmap.compress(Bitmap.CompressFormat.JPEG,40,stream);
@@ -176,11 +143,27 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                                     if(object!=null){
                                         object.put("ProfilePic",parseFile);
                                         object.saveInBackground();
+
                                         finish();
                                         startActivity(getIntent());
                                     }
                                 }
                             });
+
+                        } else {
+                            Toast.makeText(LoginActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+
+            } else {
+                //Login
+                ParseUser.logInInBackground(usernameEditText.getText().toString(), passwordEditText.getText().toString(), new LogInCallback() {
+                    @Override
+                    public void done(ParseUser user, ParseException e) {
+                        if (user != null){
+                            Toast.makeText(LoginActivity.this,ParseUser.getCurrentUser().getUsername()+" Log in Successful!", Toast.LENGTH_SHORT).show();
+                            showUSerList();
                         } else {
                             Toast.makeText(LoginActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
                         }
@@ -190,7 +173,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         }
     }
     public void showUSerList() {
-        Intent intent = new Intent(getApplicationContext(),UserListActivity.class);
+        Intent intent = new Intent(getApplicationContext(),UserListActivity.class);//going to dashboard activity
         startActivity(intent);
     }
 
